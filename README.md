@@ -21,3 +21,5 @@
             return th.autograd.grad(selected.sum(), x_in)[0] * args.classifier_scale
 
 ```
+
+**data_prepare.ipynb** has the notebook to load the image from npz file and calculate the fid or IS score. 

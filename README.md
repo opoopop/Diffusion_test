@@ -1,8 +1,8 @@
 # Diffusion_test
 
-Command_helper.md  has the commands for the experiment.
+**Command_helper.md**  has the commands for the experiment.
 
-fusion_style_sample.py makes all the samples mixed with another class. Put this file under scripts/ .Change the class by changing fix_number into other numbers.
+**fusion_style_sample.py** makes all the samples mixed with another class. Put this file under **scripts/** .Change the class by changing fix_number into other numbers.
 
 ```python
     def cond_fn(x, t, y=None):
